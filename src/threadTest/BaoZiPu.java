@@ -25,7 +25,7 @@ public class BaoZiPu extends Thread{
     //1.需要在成员位置创建一个包子变量
     private BaoZi bz;
 
-    //2.使用带参数构造方法,为这个包子变量赋值
+    //2.使用带参数构造方法,为这个包子变量赋值1
     public BaoZiPu(BaoZi bz) {
         this.bz = bz;
     }
